@@ -10,6 +10,5 @@ def pedir_dados():
     return Pessoa(nome, idade, sexo, cidade, estado)
 
 if __name__ == "__main__":
-    pedir_dados()
+    pessoa1 = pedir_dados()
     
-print(pedir_dados)
