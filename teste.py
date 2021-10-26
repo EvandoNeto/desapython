@@ -27,7 +27,5 @@ class Testes(unittest.TestCase):
     def testa_sexo(self):
         self.assertTrue(teste.sexo.__eq__("M") or teste.Sexo.__eq__("F") or teste.sexo.__eq__("m") or teste.Sexo.__eq__("f"), "Campo SEXO não identificado")
 
-
-
 if __name__ == '__main__':
     unittest.main()
