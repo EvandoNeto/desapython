@@ -11,3 +11,5 @@ def pedir_dados():
 
 if __name__ == "__main__":
     pedir_dados()
+    
+print(pedir_dados)
